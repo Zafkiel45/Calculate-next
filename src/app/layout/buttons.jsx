@@ -12,7 +12,6 @@ export default function Buttons() {
   const Back = () => {
     if(expression.length > 0) {
       const novaExpressão = expression.slice(0, -1);
-      console.log(typeof novaExpressão)
       setExpression(novaExpressão)
     }
   }
